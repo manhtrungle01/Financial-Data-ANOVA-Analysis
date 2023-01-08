@@ -6,3 +6,13 @@ There are essentially five parts of the report:
 3. Discussion on data cleaning and manipulation performed on the dataset
 4. Two-way ANOVA test
 5. Report Summary
+
+The dataset involves notable columns below:
+- ’Date’, which gives the date the data correspond to
+- ’r data’, which is the log-return on that day
+- ’rv data not scaled’, which is the calculated 5 min RV for that day. Each day’s 5 min RV is meant to be an accurate proxy of return volatility on that day
+- Square root of RV on the percentage return scale
+- A day of the week indicator
+- Dummy variables for each day of the week
+- A season indicator
+- Dummy variables for each season
